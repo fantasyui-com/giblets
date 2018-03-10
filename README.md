@@ -1,6 +1,6 @@
 # giblets
 
-> An electron-vue project
+> Because Electron should not handle mp3 encoding, it should just make noise. Sound capture and encodeing is best left to either linux on a proper output device. Giblets dictates primary tempo, a giblet will tap into that but with a unique repeating pattern. 
 
 #### Build Setup
 
