@@ -3,7 +3,7 @@
   "version": "1.10.0",
   "author": "fantasyui-com <captain@fantasyui.com>",
   "description": "An electron-vue project",
-  "license": null,
+  "license": "ISC",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -53,7 +53,6 @@
     }
   },
   "dependencies": {
-    "querystringify": "^2.1.1",
     "vue": "^2.3.3",
     "vue-electron": "^1.0.6",
     "vue-router": "^2.5.3",
@@ -102,5 +101,14 @@
     "webpack": "^3.5.2",
     "webpack-dev-server": "^3.7.1",
     "webpack-hot-middleware": "^2.25.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/giblets.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/giblets/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/giblets#readme"
 }
